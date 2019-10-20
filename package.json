@@ -11,6 +11,7 @@
     "url": "git+https://github.com/ogdenstudios/eleventy-plugin-markdown-shortcode.git"
   },
   "keywords": [
+    "eleventy-plugin",
     "Eleventy",
     "Plugin",
     "Markdown",
