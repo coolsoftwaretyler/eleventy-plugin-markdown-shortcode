@@ -4,7 +4,7 @@ const md = new MarkdownIt();
 const path = require('path');  
 
 module.exports = function(file) {  
-    let relativeFilePath = `${dir.includes + file}`  
+    let relativeFilePath = `${eleventyConfig.dir.includes + file}`  
     console.log(relativeFilePath);
     if (path.extname(file) != '.md') {  
         throw new Error("eleventy-plugin-markdown-shortcode requires a filetype of md");  
