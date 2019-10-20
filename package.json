@@ -1,0 +1,27 @@
+{
+  "name": "eleventy-plugin-markdown-shortcode",
+  "version": "0.1.0",
+  "description": "Eleventy plugin to add a markdown shortcode",
+  "main": ".eleventy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ogdenstudios/eleventy-plugin-markdown-shortcode.git"
+  },
+  "keywords": [
+    "Eleventy",
+    "Plugin",
+    "Markdown",
+    "Static",
+    "site",
+    "generators"
+  ],
+  "author": "Ogden Studios",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ogdenstudios/eleventy-plugin-markdown-shortcode/issues"
+  },
+  "homepage": "https://github.com/ogdenstudios/eleventy-plugin-markdown-shortcode#readme"
+}
