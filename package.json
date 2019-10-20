@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/ogdenstudios/eleventy-plugin-markdown-shortcode/issues"
   },
-  "homepage": "https://github.com/ogdenstudios/eleventy-plugin-markdown-shortcode#readme"
+  "homepage": "https://github.com/ogdenstudios/eleventy-plugin-markdown-shortcode#readme",
+  "dependencies": {
+    "path": "^0.12.7"
+  }
 }
