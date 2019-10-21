@@ -1,6 +1,8 @@
-# eleventy-plugin-svg-contents
+# eleventy-plugin-markdown-shortcode
 
 An [Eleventy](https://github.com/11ty/eleventy) plugin to render markdown as a shortcode within other templating engines. 
+
+Thanks to Bryan Robinson for the [Eleventy Plugin tutorial](https://bryanlrobinson.com/blog/creating-11ty-plugin-embed-svg-contents/)
 
 ## Installation
 
@@ -34,3 +36,9 @@ In your (Nunjucks or Liquid) templates, use the following syntax to grab the con
 ```
 {% markdown '/path/to/markdown.md' %}
 ```
+
+## TODO
+
+* Allow custom configuration to be passed to markdown-it
+* Make sure the `includes` directory is set correctly by interfacing with the Eleventy config if possible 
+* Add tests, if appropriate
