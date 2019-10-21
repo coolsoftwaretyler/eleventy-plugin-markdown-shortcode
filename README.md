@@ -21,7 +21,6 @@ module.exports = function(eleventyConfig) {
 };
 ```
 
-
 ## Usage
 
 This plugin is a [universal shortcode](https://www.11ty.io/docs/shortcodes/#universal-shortcodes), so it's available in the following templating engines:
@@ -31,7 +30,7 @@ This plugin is a [universal shortcode](https://www.11ty.io/docs/shortcodes/#univ
 * Handlebars
 * JavaScript (New in 0.7.0)
 
-In your (Nunjucks or Liquid) templates, use the following syntax to grab the contents from any SVG in your project path:
+In your templates, use the following syntax to grab the contents from any markdown file in your project path:
 
 ```
 {% markdown '/path/to/markdown.md' %}
