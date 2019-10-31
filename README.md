@@ -36,8 +36,19 @@ In your templates, use the following syntax to grab the contents from any markdo
 {% markdown '/path/to/markdown.md' %}
 ```
 
-## TODO
+## Configuration 
 
-* Allow custom configuration to be passed to markdown-it
-* Make sure the `includes` directory is set correctly by interfacing with the Eleventy config if possible 
-* Add tests, if appropriate
+You can also pass in [markdown-it configuration](https://www.npmjs.com/package/markdown-it#init-with-presets-and-options) like so: 
+
+```
+eleventyConfig.addPlugin(markdownShortcode, {
+    html: true,
+    linkify: true,
+});
+```
+
+## Example
+
+[View a live demo](https://thirsty-mirzakhani-3c9e8f.netlify.com/)
+
+[Read the live demo source code](https://github.com/ogdenstudios/eleventy-plugin-markdown-shortcode-example)
