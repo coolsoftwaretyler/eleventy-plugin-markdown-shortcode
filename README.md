@@ -28,7 +28,7 @@ This plugin is a [universal shortcode](https://www.11ty.io/docs/shortcodes/#univ
 * Liquid
 * Nunjucks
 * Handlebars
-* JavaScript (New in 0.7.0)
+* JavaScript
 
 In your templates, use the following syntax to grab the contents from any markdown file in your project path:
 

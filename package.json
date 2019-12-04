@@ -1,6 +1,6 @@
 {
   "name": "eleventy-plugin-markdown-shortcode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Eleventy plugin to add a markdown shortcode",
   "main": ".eleventy.js",
   "scripts": {
