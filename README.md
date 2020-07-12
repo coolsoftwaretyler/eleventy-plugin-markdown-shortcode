@@ -36,6 +36,22 @@ In your templates, use the following syntax to grab the contents from any markdo
 {% markdown '/path/to/markdown.md' %}
 ```
 
+### Frontmatter
+
+We handle (read: ignore) frontmatter with the [markdown-it-front-matter](https://www.npmjs.com/package/markdown-it-front-matter) plugin. You can include standard frontmatter like so: 
+
+```
+---
+title: Frontmatter test
+---
+
+## This is from the frontmatter test file
+
+It should *not* include anything that says `title` or the frontmatter dashes.
+```
+
+And the plugin will skip the frontmatter, as long as it's [valid](https://www.npmjs.com/package/markdown-it-front-matter#valid-front-matter)
+
 ## Configuration 
 
 You can also pass in [markdown-it configuration](https://www.npmjs.com/package/markdown-it#init-with-presets-and-options) like so: 
@@ -49,7 +65,7 @@ eleventyConfig.addPlugin(markdownShortcode, {
 
 ## Example
 
-[View a live demo](https://thirsty-mirzakhani-3c9e8f.netlify.com/)
+[View a live demo](https://trusting-feynman-f2e3c6.netlify.app/)
 
 [Read the live demo source code](https://github.com/ogdenstudios/eleventy-plugin-markdown-shortcode-example)
 
