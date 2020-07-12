@@ -65,7 +65,7 @@ eleventyConfig.addPlugin(markdownShortcode, {
 
 ## Example
 
-[View a live demo](https://thirsty-mirzakhani-3c9e8f.netlify.com/)
+[View a live demo](https://trusting-feynman-f2e3c6.netlify.app/)
 
 [Read the live demo source code](https://github.com/ogdenstudios/eleventy-plugin-markdown-shortcode-example)
 
